@@ -1,0 +1,6 @@
+train = str(input())
+razdel = train.split(';')
+print(f'Поезд: {razdel[0]}')
+print(f'Маршрут: {razdel[1]} - {razdel[2]}')
+print(f'Отправление: {razdel[3]}')
+print(f'Цена: {float(razdel[4]):.2f} руб')

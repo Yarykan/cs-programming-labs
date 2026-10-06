@@ -1,0 +1,6 @@
+data = str(input())
+print(f'Длина: {len(data)}')
+print(f'Только буквы: {data.isalpha()}')
+print(f'Только цифры: {data.isdigit()}')
+print(f'Буквенно-цифровая: {data.isalnum()}')
+print(f'Содержит дефис: {'-' in data}')
